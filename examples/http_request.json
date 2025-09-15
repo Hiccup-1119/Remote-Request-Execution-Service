@@ -1,0 +1,12 @@
+{
+  "executor": "http",
+  "requestId": "abc123",
+  "correlationId": "corr-42",
+  "http": {
+    "baseUrl": "http://localhost:5001",
+    "path": "/echo",
+    "method": "GET",
+    "query": { "hello": "world" },
+    "headers": { "Accept": "application/json" }
+  }
+}

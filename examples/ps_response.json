@@ -1,0 +1,9 @@
+{
+  "requestId": "...",
+  "executorType": "powershell",
+  "status": "Success",
+  "result": {
+    "command": "Get-EXOMailbox",
+    "objects": [ { "DisplayName": "Sample Mailbox", "PrimarySmtpAddress": "sample@example.com" } ]
+  }
+}

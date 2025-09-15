@@ -1,0 +1,11 @@
+{
+  "requestId": "abc123",
+  "correlationId": "corr-42",
+  "executorType": "http",
+  "startedUtc": "2025-09-11T00:00:00Z",
+  "endedUtc": "2025-09-11T00:00:00Z",
+  "status": "Success",
+  "attemptCount": 1,
+  "attempts": [ { "attempt": 1, "outcome": "Success", "durationMs": 10 } ],
+  "result": { "statusCode": 200, "headers": { "Content-Type": "application/json" }, "bodySnippet": "{...}", "bodyTruncated": false, "bytes": 123 }
+}

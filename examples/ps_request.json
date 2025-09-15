@@ -1,0 +1,8 @@
+{
+  "executor": "powershell",
+  "powerShell": {
+    "operation": "ListMailboxes",
+    "parameters": { "ResultSize": "50" },
+    "paging": { "pageSize": 50 }
+  }
+}
